@@ -8,7 +8,7 @@ The final output is an interactive Power BI dashboard where users can explore re
 
 ## 📊 Dashboard
 
-![GridMetrics Dashboard](images/gridmetrics_dashboard.png)
+![GridMetrics Dashboard](GridMetrics/images/dashboard.png)
 
 ### Dashboard features
 
@@ -23,7 +23,7 @@ The final output is an interactive Power BI dashboard where users can explore re
 
 The Power BI model connects race, driver, constructor, qualifying, circuit, and pit-stop data to support interactive analysis across multiple Formula 1 seasons.
 
-![Power BI Data Model](images/data_model.png)
+![Power BI Data Model](GridMetrics/images/data_model.png)
 
 ## 🔍 SQL Analysis
 
@@ -64,6 +64,9 @@ ORDER BY
     rr.position;
 ```
 
+
+![Race Analysis SQL](GridMetrics/images/race_analysis_sql.png)
+
 ### Example: Constructor Performance View
 
 ```sql
@@ -81,6 +84,8 @@ GROUP BY
     season,
     constructorName;
 ```
+![Constructor Championship View](GridMetrics/images/constructor_view_sql.png)
+
 
 ## 🛠️ Tools & Technologies
 
